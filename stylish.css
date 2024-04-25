@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins';
+    background-image: url(https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_200,q_60,w_400/v1/clients/asheville/coldmountain_rainbow_edit_039abf4b-bca7-4b72-b5c6-df70a8da83e1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+nav ul{
+    display: flex;
+    position: relative;
+    left: -1rem;
+
+    
+}
+nav ul li{
+    padding-left: 2rem;
+    list-style: none;
+    display: flex;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    display: block; 
+}
+nav ul li a:hover{
+    color: #ffab23;
+    transition: 0.2s;
+}
+.logo{
+    color:#fff;
+    font-weight: 600;
+    margin-top: -0.2rem;
+    
+}
+.content{
+    color: white;
+}
+.content2{
+    color: #d2d2d2;
+    margin-top: 15rem;
+    font-size: 0.8rem;
+   
+}
+.hero{
+    height: 30vh;
+    width:30vh;
+    margin-left: 2rem;
+    display: flex;
+    border-radius: 50rem;
+    
+}
+.devbox{
+    color:#fff;
+
+}
+.devbox h1{
+   
+    margin-left: 10rem;
+}
+.svglogo{
+    width: 1rem;
+    background-color: #fff;
+    
+}
+.svglogo:hover{
+    background-color: #ffab23;
+    transition: 0.5s;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  margin: 0;
+  padding: 14px 16px;
+  cursor: pointer;
+  display: none;
+  
+  
+}
+.dropdown .dropbtn:hover{
+  background-color: #ffab23;
+  border-radius:15px;
+  transition: 0.1s;
+  right: 1rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 15px;
+  right: -5rem;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  border-radius: 15px;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Same CSS code as previous version */
+
+.dropdown-content {
+  display: none;
+  /* ... */
+}
+
+/* ... */
+.show {
+  display: block;
+}
+@media only screen and (max-width:600px) {
+    nav ul li a{display: none;}
+    .dropdown .dropbtn{display:block;} 
+}
